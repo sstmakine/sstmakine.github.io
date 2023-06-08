@@ -621,7 +621,7 @@ Main Banner CSS
   margin-bottom: 20px;
 }
 
-.banner-content p {
+.banner-content p:not(.rtgtrihk52) {
   color: #F2F2F2 !important;
   max-width: 1065px !important;
   display: block;
@@ -6993,7 +6993,6 @@ Copyright Wrap Area CSS
   color: #F2F2F2 !important;
   font-weight: 700 !important;
   font-size: 32px !important;
-  margin-top: 160px;
 }
 .rtgrrtg56511{
   font-size: 28px !important;
@@ -7038,4 +7037,58 @@ table{
   font-size: 14px !important;
   text-align: center;
 
+}
+
+#blog .post-image img{
+  height: 250px;
+}
+#blog .post-image img.heightauto{
+    height: auto !important;
+}
+#blog .post-content1 {
+  max-width: 321px;
+  margin-top: 16px;
+}
+
+#blog .post-content1 a{
+  font-size: 22px;
+  color: #F2F2F2;
+}
+
+#blog .single-blog-post{
+  width: fit-content;
+  display: block;
+  margin:auto;
+}
+
+.rtgtrihk52{
+    font-size: 16px !important;
+    max-width: 100% !important;
+    color: #F2F2F2 !important;
+    display: block;
+    margin: auto;
+    line-height: 38px;
+    margin-bottom: 145px;
+}
+
+
+
+#blog .yhy img {
+  height: 209px;
+  display: block;
+  margin: auto;
+}
+
+.oollrrpp{
+  font-size: 32px;
+text-align: left;
+}
+
+.hhwwhh{
+  margin-left: 0 !important;
+}
+
+.single-blog-post .post-image a img {
+    -webkit-filter: unset;
+    filter: unset;
 }

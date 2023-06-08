@@ -1,4 +1,13 @@
 @media only screen and (max-width: 767px) {
+  #blog .post-image img{
+    height: auto !important;
+    max-height: 220px;
+    margin-bottom: 1em;
+    display: block;
+  }
+  #blog .single-blog-post{
+    margin: auto !important;
+  }
   p {
     font-size: 13px !important;
   }
